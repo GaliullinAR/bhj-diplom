@@ -16,7 +16,7 @@ class Modal {
       throw new Error('Параметр element класса Modal не задан');
     }
     this.element = element;
-
+    
     this.registerEvents();
   }
 
